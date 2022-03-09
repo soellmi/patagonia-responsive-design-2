@@ -9,7 +9,8 @@ ul{
     list-style-type: none;
 }
 nav{
-    margin-right: 30px;
+    margin-right: 50px;
+    max-width: 617px;
 }
 
 .parent-container{
@@ -20,7 +21,7 @@ nav{
 }
 .nav-icons{
 display: flex;
-justify-content:space-between ;
+justify-content:space-between;
 }
 
 .fas fa-ellipsis-h
@@ -76,6 +77,10 @@ justify-content:space-between ;
         margin: auto;
     }
     
+    nav{
+        max-width: 617px;
+        margin: auto;
+    }
 } 
 
 @media screen and (min-width:1000px){
@@ -90,5 +95,9 @@ justify-content:space-between ;
         line-height: 33px;
         margin: auto;
     }
-
+    
+    nav{
+        max-width: 870px;
+        margin: auto;
+    }
 }
