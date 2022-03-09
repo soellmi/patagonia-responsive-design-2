@@ -52,7 +52,7 @@ justify-content:space-between ;
     margin-right: 52px;
 }
 
-.horses{
+.image-horses{
     display: flex;
     justify-content: center;
 }
@@ -75,7 +75,8 @@ justify-content:space-between ;
         line-height: 33px;
         margin: auto;
     }
-}
+    
+} 
 
 @media screen and (min-width:1000px){
     .title{
@@ -89,5 +90,5 @@ justify-content:space-between ;
         line-height: 33px;
         margin: auto;
     }
- 
+
 }

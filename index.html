@@ -16,7 +16,10 @@
         <header>
             <nav>
                 <ul class="nav-icons">
-                    <li><img class="horse-image" src="images/Logo.svg" alt="logo"></li>
+                    <li><picture>
+                            <source media="(min-width:1001px )" srcset="images/logo-big.svg">
+                            <img src="images/Logo.svg" alt="logo"></li>
+                        </picture>
                     <li><i class="fas fa-ellipsis-h"></i></li>
                 </ul>
             </nav>
@@ -30,9 +33,14 @@
                     Donec viverra eleifend lacus, vitae ullamcor.</p>
             </div>
         </div>
-        <picture class="horses">
-            <img src="images/patagonia.png" alt="horses">
-        </picture>
+        <div class="image-horses">
+            <picture class="horses">
+                <source media="(max-width: 800px)" srcset="images/patagonia.png">
+                <source media="(max-width: 1000px )" srcset="images/patagonia-medium.png">
+                <source media="(min-width: 1001px)" srcset="images/patagonia-large.png">
+                <img src="images/patagonia.png" alt="horses">
+            </picture>
+        </div>
     </div>
 </body>
 </html>
