@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/65c81a548f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/index.css">
     <title>Patagonia</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-icons">
-                <img src="images/Logo.svg" alt="logo">
-                <img src="images/Icon.svg" alt="dots">
+    <div class="parent-container">
+        <header>
+            <nav>
+                <ul class="nav-icons">
+                    <li><img class="horse-image" src="images/Logo.svg" alt="logo"></li>
+                    <li><i class="fas fa-ellipsis-h"></i></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="title-text">
+            <div class="title">
+                <p>Patagonia</p>
             </div>
-        </nav>
-    </header>
-    <div class="title">
-        <p>Patagonia</p>
+            <div class="text">
+                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+                    Donec viverra eleifend lacus, vitae ullamcor.</p>
+            </div>
+        </div>
+        <picture class="horses">
+            <img src="images/patagonia.png" alt="horses">
+        </picture>
     </div>
-    <div class="text">
-        <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
-            Donec viverra eleifend lacus, vitae ullamcor.</p>
-    </div>
-    <picture>
-        <img src="images/patagonia.png" alt="">
-    </picture>
 </body>
 </html>

@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+    margin-right: 30px;
+}
+
+.parent-container{
+    min-width:320px;
+    max-width:870px;
+    height: auto;
+    margin: auto;
+}
+.nav-icons{
+display: flex;
+justify-content:space-between ;
+}
+
+.fas fa-ellipsis-h
+{
+    height: 24px;
+    width: 24px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-width: 217px;
+    max-width: 574px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.horses{
+    display: flex;
+    justify-content: center;
+}
+
+/*...........................Media queries.....................................*/
+@-ms-viewport{
+    width: device-width;
+  }
+
+
+@media screen and (min-width: 800px){
+    .title{
+        font-size: 72px;
+        line-height: 83px;
+
+    }
+
+    .text {
+        font-size: 22px;
+        line-height: 33px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .title{
+        font-size: 90px;
+        line-height: 102px;
+
+    }
+   
+    .text{
+        font-size: 22px;
+        line-height: 33px;
+        margin: auto;
+    }
+ 
+}
