@@ -30,6 +30,14 @@ justify-content:space-between;
     width: 24px;
 }
 
+.nav-icons-big{
+    display: none;
+}
+
+.nav-icons-medium{
+    display: none;
+}
+
 .title{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -81,6 +89,20 @@ justify-content:space-between;
         max-width: 617px;
         margin: auto;
     }
+
+    .nav-dots{
+        display: none;
+    }
+
+    .nav-icons-medium{
+        width: 249px;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
 } 
 
 @media screen and (min-width:1000px){
@@ -99,5 +121,24 @@ justify-content:space-between;
     nav{
         max-width: 870px;
         margin: auto;
+    }
+
+    .nav-dots{
+        display: none;
+    }
+
+    .nav-icons-medium{
+        display: none;
+    }
+
+    .nav-icons-big{
+        width: 214px;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+
     }
 }
