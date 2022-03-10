@@ -38,6 +38,26 @@ justify-content:space-between;
     display: none;
 }
 
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    min-width: 160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 .title{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -103,6 +123,11 @@ justify-content:space-between;
         font-size: 16px;
         line-height: 22px;
     }
+
+    .nav-icons-medium a:hover{
+        color: #ddd;
+        float: left;
+    }
 } 
 
 @media screen and (min-width:1000px){
@@ -139,6 +164,11 @@ justify-content:space-between;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
+        text-decoration: none;
 
+    }
+
+    .nav-icons-big a:hover{
+        color: #ddd;
     }
 }
