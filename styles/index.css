@@ -5,6 +5,8 @@ body{
 
 }
 
+
+
 ul{
     list-style-type: none;
 }
@@ -24,12 +26,15 @@ display: flex;
 justify-content:space-between;
 }
 
-.fas fa-ellipsis-h
-{
+.fas fa-ellipsis-h{
     height: 24px;
     width: 24px;
 }
-
+.nav-dots{
+    position:fixed;
+    
+    
+}
 .nav-icons-big{
     display: none;
 }
@@ -41,21 +46,26 @@ justify-content:space-between;
 
   .dropdown-content {
     display: none;
-    position: fixed;
     min-width: 160px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
   }
-  
 
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+  .dropdown-content a:link, a:visited {
+    color: black ;
+    text-decoration: none;
+}
+.dropdown-content a{
+    float: none;
+    display: block;
+    text-align: left;
+}
 
   .dropdown:hover .dropdown-content {
     display: block;
+    float: left;
   }
 
 .title{
@@ -124,9 +134,19 @@ justify-content:space-between;
         line-height: 22px;
     }
 
-    .nav-icons-medium a:hover{
-        color: #ddd;
-        float: left;
+    
+
+    .nav-icons-medium a:link, a:visited {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-decoration: none;
+        color:black
+    }
+
+    .nav-icons-medium a:hover {
+        color: red;
     }
 } 
 
@@ -165,10 +185,19 @@ justify-content:space-between;
         font-size: 16px;
         line-height: 22px;
         text-decoration: none;
-
     }
 
-    .nav-icons-big a:hover{
+    .nav-icons-big a:link, a:visited{
         color: #ddd;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-decoration: none;
+        color:black
+    }
+
+    .nav-icons-big a:hover {
+        color: red;
     }
 }
